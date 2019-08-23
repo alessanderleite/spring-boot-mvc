@@ -17,7 +17,7 @@ public class DepartamentoController {
 	private DepartamentoService service;
 
 	@GetMapping("/cadastrar")
-	public String cadastrar() {
+	public String cadastrar(Departamento departamento) {
 		return "/departamento/cadastro";
 	}
 	
