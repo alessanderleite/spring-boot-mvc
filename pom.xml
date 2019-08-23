@@ -75,6 +75,12 @@
 			<artifactId>jquery-mask-plugin</artifactId>
 			<version>1.14.15</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
