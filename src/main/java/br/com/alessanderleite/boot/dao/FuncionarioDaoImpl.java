@@ -47,5 +47,4 @@ public class FuncionarioDaoImpl extends AbstractDao<Funcionario, Long> implement
 				.toString();
 		return createQuery(jpql, saida);
 	}
-
 }
