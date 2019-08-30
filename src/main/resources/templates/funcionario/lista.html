@@ -68,12 +68,11 @@
 					<div class="collapse" id="collapseData">
 
 						<nav class="navbar navbar-light bg-light">
-							<form class="form-inline" method="GET"
-								action="/funcionarios/buscar/data">
-								<input class="form-control mr-sm-2" type="date"
-									aria-label="Search" name="entrada" /> <input
-									class="form-control mr-sm-2" type="date" aria-label="Search"
-									name="saida" />
+							<form class="form-inline" method="GET" th:action="@{/funcionarios/buscar/data}">
+								<input class="form-control mr-sm-2" type="date" aria-label="Search" 
+									th:name="entrada" /> 
+								<input class="form-control mr-sm-2" type="date" aria-label="Search"
+									th:name="saida" />
 								<button class="btn btn-outline-success my-2 my-sm-0">Search</button>
 							</form>
 						</nav>
